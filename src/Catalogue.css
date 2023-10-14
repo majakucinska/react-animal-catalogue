@@ -1,10 +1,10 @@
 .Catalogue{
     background-color: lightgray;
-    margin: 20px 50px 20px 50px;
     padding-bottom: 20px;
-    color: rgb(85, 82, 82);
-    padding: 60px;
-    
+    color: rgb(58, 55, 55);
+    padding: 60px 60px 150px 60px;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .Catalogue h1{
@@ -15,9 +15,16 @@
    
 }
 
+.Catalogue h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .Catalogue img{
-    border: 3px solid rgb(85, 82, 82);
+    border: 3px solid rgb(58, 55, 55);
     border-radius: 3px;
+    margin-bottom: 60px;
 
     
 }
