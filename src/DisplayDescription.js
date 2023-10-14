@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import "./DisplayDescription"
 
 export default function DisplayDescription(){
     
@@ -53,7 +54,7 @@ export default function DisplayDescription(){
 
 
     return(
-        <div>
+        <div className="DisplayDescription">
             <div className="row">
                 <div className="col-3">
                     <img 
@@ -81,7 +82,7 @@ export default function DisplayDescription(){
                     src="https://www.k9ofmine.com/wp-content/uploads/2018/07/samoyed.jpg" 
                     class="img-fluid d-none d-sm-block" 
                     alt="Samoyed"
-                    onClick={samoyedDescription} />
+                    onClick={samoyedDescription}/>
                 </div>
             </div>
             <div className="row"> 
