@@ -39,6 +39,7 @@ export default function DisplayDescription(){
                 Chows are serious dogs, and they won’t bark much, making them a good pick for urban life. But he is not recommended for new dog owners, as his independent nature is almost as impressive as his mane. He needs ongoing, positive training from an early age, with a special focus on socializing, as he can be prone to aloofness with dogs and strangers.
                 </p>
             );
+          
         }
 
         function samoyedDescription(event){
@@ -50,6 +51,7 @@ export default function DisplayDescription(){
                 Also called “Sammies,” Samoyeds can be expensive dogs, but they are one of the sweetest northern breeds around. They’re also one of the best family dogs, but they can be a handful when it comes to training. Remember to keep sessions short and focused but fun, with lots of positive reinforcement for a job well done. Never harshly correct your Sammie, as his spirit is delicate.
                 </p>
             );
+
         }
 
 
@@ -75,7 +77,8 @@ export default function DisplayDescription(){
                     src="https://www.k9ofmine.com/wp-content/uploads/2020/08/chow-chow-breed.jpg" 
                     class="img-fluid d-none d-sm-block" 
                     alt="Chow-chow"
-                    onClick={chowChowDescription} />
+                    onClick={chowChowDescription}
+                    />
                 </div>
                 <div className="col-3">
                     <img 
