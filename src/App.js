@@ -6,8 +6,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <h2>Hello world</h2>
+          <h1>Ancient dog breeds catalogue</h1>
           <Catalogue />
+          <footer>This project was coded by Maja Kucinska-Kijo and is {""}
+            <a href="https://github.com/majakucinska/react-animal-catalogue">
+                open-sourced
+            </a></footer>
       </div>
     );
   }
