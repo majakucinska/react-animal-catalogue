@@ -3,6 +3,7 @@
     margin: 20px 50px 20px 50px;
     padding-bottom: 20px;
     color: rgb(85, 82, 82);
+    padding: 60px;
     
 }
 
@@ -10,14 +11,14 @@
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    margin: 50px;
+    margin-bottom: 50px;
    
 }
 
 .Catalogue img{
     border: 3px solid rgb(85, 82, 82);
     border-radius: 3px;
-    img: img-fluid d-none d-sm-block;
+
     
 }
 
