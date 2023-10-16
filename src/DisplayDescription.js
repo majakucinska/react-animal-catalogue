@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "./DisplayDescription"
+import "./DisplayDescription.css";
 
 export default function DisplayDescription(){
     
